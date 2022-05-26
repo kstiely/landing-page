@@ -98,7 +98,26 @@
 }
 
 .third-block {
+    background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.third-block p {
+    width: 725px;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.third-block div {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bolder;
+    align-self: flex-end;
 }
 
 .fourth-block {
