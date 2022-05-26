@@ -65,6 +65,36 @@
 
 .second-block {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 24px;
+}
+
+.second-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 16px 0px;
+}
+
+.item-list {
+    display: flex;
+
+}
+
+.item-card {
+    height: 200px;
+    width: 200px;
+    margin: 24px;
+    padding: 0px;
+    text-align: center;
+}
+
+.item-card img {    
+    border-radius: 10px;
+    border: 10px;
 }
 
 .third-block {
