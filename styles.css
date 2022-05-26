@@ -81,7 +81,6 @@
 
 .item-list {
     display: flex;
-
 }
 
 .item-card {
@@ -92,9 +91,11 @@
     text-align: center;
 }
 
-.item-card img {    
+.item-card img {  
+    height: 150px;
+    width: 150px;  
     border-radius: 10px;
-    border: 10px;
+    border: 5px solid #3882f6;
 }
 
 .third-block {
